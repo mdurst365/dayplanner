@@ -34,7 +34,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid black;
+  border: 1px solid black;
 }
 
 .hour {
@@ -74,10 +74,8 @@ textarea{
 }
 
 .col-sm{
-	border-width:thin;
-	border-color: black;
-	border-style: solid;
 	text-align: center;
+	max-height: 100%;
 }
 
 .bump {
