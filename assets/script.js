@@ -24,3 +24,39 @@ function updateOutput1() {
 /*I am sure there is a shorter way to write this 
 but I will repeat it with each timebox entry anyway because
 that code works */
+
+var input_textarea2 = document.querySelector('#event2');
+var save_button2 = document.querySelector('#saveEvent2');
+//get saved text to display
+input_textarea2.value = localStorage.getItem('content2');
+//when Save button is clicked - store textarea input
+saveEvent2.addEventListener('click', updateOutput2);
+//keep text area input in local storage
+function updateOutput1() {
+    localStorage.setItem('content2', input_textarea1.value);
+};
+
+var input_textarea3 = document.querySelector('#event3');
+var save_button3 = document.querySelector('#saveEvent3');
+//get saved text to display
+input_textarea3.value = localStorage.getItem('content3');
+//when Save button is clicked - store textarea input
+saveEvent2.addEventListener('click', updateOutput3);
+//keep text area input in local storage
+function updateOutput1() {
+    localStorage.setItem('content3', input_textarea1.value);
+};
+
+//placeholder for additional saves
+
+//4
+
+//5
+
+//6
+
+//7
+
+//8
+
+//9
