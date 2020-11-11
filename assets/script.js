@@ -1,5 +1,6 @@
 // JavaScript Document
 
+//Dynamic day of the week displayed at top of schedule
 /**
  * Function takes in a Date object and returns the day of the week in a text format.
  */
@@ -18,3 +19,5 @@ function getWeekDay(date){
 var date = new Date();
 var weekDay = getWeekDay(date);
 document.getElementById("currentDay").innerHTML = weekDay;
+
+//Dynamic content for calendar here
