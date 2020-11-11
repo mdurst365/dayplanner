@@ -59,9 +59,7 @@ textarea{
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #1B5F14;
   color: white;
 }
 
@@ -81,5 +79,5 @@ textarea{
 }
 
 .bump {
-	margin-bottom: 2%;
+	margin-bottom: 4%;
 }
