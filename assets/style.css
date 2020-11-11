@@ -73,3 +73,13 @@ textarea{
 .small {
 	font-size: 1 em;
 }
+
+.col-sm{
+	border-width:thin;
+	border-color: black;
+	border-style: solid;
+}
+
+.col-sm img {
+	width:60%;
+}
