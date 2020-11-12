@@ -4,7 +4,7 @@
 
 This API was created as a homework assignment for the OSU coding bootcamp. It was made to help people organize their workday by creating an hourly schedule. The text entries are saved using local storage and will remain when the page is refreshed. Additionally, the text boxes are color coded and will change color based on if the text entry box hour is in the past, present or future. 
 
-Although it was not required, I added a clear all button so that the user could wipe the slate clean if so desired and enter all new informatio because I thought that would be a helpful feature for the user experience.
+Although it was not required, I added a clear all button so that the user could wipe the slate clean if so desired and enter all new information because I thought that would be a helpful feature for the user experience.
 
 ## Requirements For This Assignment
 
