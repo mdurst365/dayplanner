@@ -125,3 +125,9 @@ function updateOutput10() {
     localStorage.setItem('content10', input_fivePM.value);
 }
 
+//on click clear all saved data and refresh page
+$("#clear").click(function() {
+    localStorage.clear();
+    location.reload()
+});
+
