@@ -6,7 +6,7 @@ This API was created as a homework assignment for the OSU coding bootcamp. It wa
 
 Although it was not required, I added a clear all button so that the user could wipe the slate clean if so desired and enter all new informatio because I thought that would be a helpful feature for the user experience.
 
-## Homework Requirements For This Assignment
+## Requirements For This Assignment
 
 - [x] Create a workday planner to track a person's schedule
 - [x] The current day is displayed at the top of the calendar
