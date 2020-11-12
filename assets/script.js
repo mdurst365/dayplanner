@@ -29,10 +29,99 @@ function updateOutput1() {
 var input_nineAM = document.querySelector('#nineAM');
 var saveNineAM = document.querySelector('#saveNineAM');
 //retrieves previously save text to display
-input_nineAM.value = localStorage.getItem('content1');
+input_nineAM.value = localStorage.getItem('content2');
 //when the Save button is clicked, store the input of the textarea
 saveNineAM.addEventListener('click', updateOutput2);
 //sets the input of text area into local storage
 function updateOutput2() {
     localStorage.setItem('content2', input_nineAM.value);
 }
+
+var input_tenAM = document.querySelector('#tenAM');
+var saveTenAM = document.querySelector('#saveTenAM');
+//retrieves previously save text to display
+input_tenAM.value = localStorage.getItem('content3');
+//when the Save button is clicked, store the input of the textarea
+saveTenAM.addEventListener('click', updateOutput3);
+//sets the input of text area into local storage
+function updateOutput3() {
+    localStorage.setItem('content3', input_tenAM.value);
+}
+
+var input_elevenAM = document.querySelector('#elevenAM');
+var saveElevenAM = document.querySelector('#saveElevenAM');
+//retrieves previously save text to display
+input_elevenAM.value = localStorage.getItem('content4');
+//when the Save button is clicked, store the input of the textarea
+saveElevenAM.addEventListener('click', updateOutput4);
+//sets the input of text area into local storage
+function updateOutput4() {
+    localStorage.setItem('content4', input_elevenAM.value);
+}
+
+var input_twelvePM = document.querySelector('#twelvePM');
+var saveTwelvePM = document.querySelector('#saveTwelvePM');
+//retrieves previously save text to display
+input_twelvePM.value = localStorage.getItem('content5');
+//when the Save button is clicked, store the input of the textarea
+saveTwelvePM.addEventListener('click', updateOutput5);
+//sets the input of text area into local storage
+function updateOutput5() {
+    localStorage.setItem('content5', input_twelvePM.value);
+}
+
+var input_onePM = document.querySelector('#onePM');
+var saveOnePM = document.querySelector('#saveOnePM');
+//retrieves previously save text to display
+input_onePM.value = localStorage.getItem('content6');
+//when the Save button is clicked, store the input of the textarea
+saveOnePM.addEventListener('click', updateOutput6);
+//sets the input of text area into local storage
+function updateOutput6() {
+    localStorage.setItem('content6', input_onePM.value);
+}
+
+var input_twoPM = document.querySelector('#twoPM');
+var saveTwoPM = document.querySelector('#saveTwoPM');
+//retrieves previously save text to display
+input_twoPM.value = localStorage.getItem('content7');
+//when the Save button is clicked, store the input of the textarea
+saveTwoPM.addEventListener('click', updateOutput7);
+//sets the input of text area into local storage
+function updateOutput7() {
+    localStorage.setItem('content7', input_twoPM.value);
+}
+
+var input_threePM = document.querySelector('#threePM');
+var saveThreePM = document.querySelector('#saveThreePM');
+//retrieves previously save text to display
+input_threePM.value = localStorage.getItem('content8');
+//when the Save button is clicked, store the input of the textarea
+saveThreePM.addEventListener('click', updateOutput8);
+//sets the input of text area into local storage
+function updateOutput8() {
+    localStorage.setItem('content8', input_threePM.value);
+}
+
+var input_fourPM = document.querySelector('#fourPM');
+var saveFourPM = document.querySelector('#saveFourPM');
+//retrieves previously save text to display
+input_fourPM.value = localStorage.getItem('content9');
+//when the Save button is clicked, store the input of the textarea
+saveFourPM.addEventListener('click', updateOutput9);
+//sets the input of text area into local storage
+function updateOutput9() {
+    localStorage.setItem('content9', input_fourPM.value);
+}
+
+var input_fivePM = document.querySelector('#fivePM');
+var saveFivePM = document.querySelector('#saveFivePM');
+//retrieves previously save text to display
+input_fivePM.value = localStorage.getItem('content10');
+//when the Save button is clicked, store the input of the textarea
+saveFivePM.addEventListener('click', updateOutput10);
+//sets the input of text area into local storage
+function updateOutput10() {
+    localStorage.setItem('content10', input_fivePM.value);
+}
+
