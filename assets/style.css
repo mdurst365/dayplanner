@@ -7,7 +7,6 @@ body {
 
 textarea{
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -29,12 +28,14 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+	width: 20vw;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
   border: 1px solid black;
+	margin-bottom:2%;
 }
 
 .hour {
@@ -76,8 +77,4 @@ textarea{
 .col-sm{
 	text-align: center;
 	max-height: 100%;
-}
-
-.bump {
-	margin-bottom: 4%;
 }
