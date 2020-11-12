@@ -1,6 +1,12 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Task List
+## About this project
+
+This API was created as a homework assignment for the OSU coding bootcamp. It was made to help people organize their workday by creating an hourly schedule. The text entries are saved using local storage and will remain when the page is refreshed. Additionally, the text boxes are color coded and will change color based on if the text entry box hour is in the past, present or future. 
+
+Although it was not required, I added a clear all button so that the user could wipe the slate clean if so desired and enter all new informatio because I thought that would be a helpful feature for the user experience.
+
+## Homework Requirements For This Assignment
 
 - [x] Create a workday planner to track a person's schedule
 - [x] The current day is displayed at the top of the calendar
