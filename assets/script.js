@@ -131,3 +131,105 @@ $("#clear").click(function() {
     location.reload()
 });
 
+//color code past, present and future
+var now= new Date().getHours();
+
+if (now > 8) {
+    $("#eightAM").addClass("past");
+	}	
+    else if (now >= 8 && now < 9) {
+        $("#eightAM").addClass("present");
+	}
+    else if (now < 8) {
+        $("#eightAM").addClass("future");
+	}
+
+if (now > 9) {
+    $("#nineAM").addClass("past");
+	}	
+    else if (now >= 9 && now < 10) {
+        $("#nineAM").addClass("present");
+	}
+    else if (now < 9) {
+        $("#nineAM").addClass("future");
+	}
+
+if (now > 10) {
+    $("#tenAM").addClass("past");
+	}	
+    else if (now >= 10 && now < 11) {
+        $("#tenAM").addClass("present");
+	}
+    else if (now < 10) {
+        $("#tenAM").addClass("future");
+	}
+
+if (now > 11) {
+    $("#elevenAM").addClass("past");
+	}	
+    else if (now >= 11 && now < 12) {
+        $("#elevenAM").addClass("present");
+	}
+    else if (now < 12) {
+        $("#elevenAM").addClass("future");
+	}
+
+if (now > 12) {
+    $("#twelvePM").addClass("past");
+	}	
+    else if (now >= 12 && now < 13) {
+        $("#twelvePM").addClass("present");
+	}
+    else if (now < 12) {
+        $("#twelvePM").addClass("future");
+	}
+
+if (now > 13) {
+    $("#onePM").addClass("past");
+	}	
+    else if (now >= 13 && now < 14) {
+        $("#onePM").addClass("present");
+	}
+    else if (now < 14) {
+        $("#onePM").addClass("future");
+	}
+
+if (now > 14) {
+    $("#twoPM").addClass("past");
+	}	
+    else if (now >= 14 && now < 15) {
+        $("#twoPM").addClass("present");
+	}
+    else if (now < 15) {
+        $("#twoPM").addClass("future");
+	}
+
+if (now > 15) {
+    $("#threePM").addClass("past");
+	}	
+    else if (now >= 15 && now < 16) {
+        $("#threePM").addClass("present");
+	}
+    else if (now < 16) {
+        $("#threePM").addClass("future");
+	}
+
+if (now > 16) {
+    $("#fourPM").addClass("past");
+	}	
+    else if (now >= 16 && now < 17) {
+        $("#fourPM").addClass("present");
+	}
+    else if (now < 16) {
+        $("#fourPM").addClass("future");
+	}
+
+if (now > 17) {
+    $("#fivePM").addClass("past");
+	}	
+    else if (now >= 16 && now < 17) {
+        $("#fivePM").addClass("present");
+	}
+    else if (now < 16) {
+        $("#fivePM").addClass("future");
+	}
